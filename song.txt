@@ -1,0 +1,10 @@
+first line
+git clone ---key from gtiHub
+
+
+to get info:
+git remote -v
+
+git status
+
+git commit -m "my message"
