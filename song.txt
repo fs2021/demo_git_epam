@@ -9,4 +9,5 @@ git status
 
 git commit -m "my message"
 
-after edit online
+after edit online to sync local files:
+git pull
