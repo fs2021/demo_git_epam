@@ -7,6 +7,7 @@ git remote -v
 
 git status
 
+<<<<<<< HEAD
 git add fileName
 
 git commit -m "my message"
@@ -17,3 +18,48 @@ git push
 
 after edit online to sync local files:
 git pull
+=======
+git commit -m "my message"
+
+after edit online to sync local files:
+git pull
+>>>>>>> 6570ab4fa49364cdfc734e3afa5ea4e2db02741f
+
+git gui&
+
+gitk&   ---for history
+
+git show -s --pretty=raw d2d84(this is first symols of commit sha1)
+git ls-tree 629eb
+git show abb54
+
+
+--------------
+git checkout --fileName   -to undo
+git checkout .    --undo all
+git clean -xdf    -remove new files, dir, forced
+----------------------
+git reset -file.txt   --remove file from staging
+
+to undo commit:
+	git reset --soft(mixed, hard) HEAD^^ (HEAD~2)   -number of commits to undo(2)
+	git commit --amend -m "add message to commit"
+---------------------------------------
+- to undo changes pushed to repository
+
+git revert sha1_ofTheCommit
+git push
+
+____________new branch____
+git checkout -b brachName
+git checkout master   ----to switch to master
+
+git merge feature
+
+git merge --abort
+
+git checkout --Xours --Xtheirs   ---select the right version in conflict
+
+git diff   ---show diff in terminal
+
+
