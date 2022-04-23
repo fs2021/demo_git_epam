@@ -8,3 +8,5 @@ git remote -v
 git status
 
 git commit -m "my message"
+
+after edit online
