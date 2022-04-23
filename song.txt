@@ -7,4 +7,13 @@ git remote -v
 
 git status
 
+git add fileName
+
 git commit -m "my message"
+
+git log
+
+git push
+
+after edit online to sync local files:
+git pull
